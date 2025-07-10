@@ -1,0 +1,113 @@
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+
+
+Attaching package: ‘dplyr’
+
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Original Data Frame (First 5 Rows):
+   mpg cyl disp  hp drat    wt  qsec vs am gear carb               car
+1 21.0   6  160 110 3.90 2.620 16.46  0  1    4    4         Mazda RX4
+2 21.0   6  160 110 3.90 2.875 17.02  0  1    4    4     Mazda RX4 Wag
+3 22.8   4  108  93 3.85 2.320 18.61  1  1    4    1        Datsun 710
+4 21.4   6  258 110 3.08 3.215 19.44  1  0    3    1    Hornet 4 Drive
+5 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2 Hornet Sportabout
+
+Selected Columns (mpg, cyl, hp, car):
+   mpg cyl  hp               car
+1 21.0   6 110         Mazda RX4
+2 21.0   6 110     Mazda RX4 Wag
+3 22.8   4  93        Datsun 710
+4 21.4   6 110    Hornet 4 Drive
+5 18.7   8 175 Hornet Sportabout
+6 18.1   6 105           Valiant
+
+Renamed Columns:
+  Mileage Cylinders HorsePower               car
+1    21.0         6        110         Mazda RX4
+2    21.0         6        110     Mazda RX4 Wag
+3    22.8         4         93        Datsun 710
+4    21.4         6        110    Hornet 4 Drive
+5    18.7         8        175 Hornet Sportabout
+6    18.1         6        105           Valiant
+
+New Variable Added (HP_per_Cyl):
+  Mileage Cylinders HorsePower               car HP_per_Cyl
+1    21.0         6        110         Mazda RX4   18.33333
+2    21.0         6        110     Mazda RX4 Wag   18.33333
+3    22.8         4         93        Datsun 710   23.25000
+4    21.4         6        110    Hornet 4 Drive   18.33333
+5    18.7         8        175 Hornet Sportabout   21.87500
+6    18.1         6        105           Valiant   17.50000
+
+Dropped Column (HorsePower):
+  Mileage Cylinders               car HP_per_Cyl
+1    21.0         6         Mazda RX4   18.33333
+2    21.0         6     Mazda RX4 Wag   18.33333
+3    22.8         4        Datsun 710   23.25000
+4    21.4         6    Hornet 4 Drive   18.33333
+5    18.7         8 Hornet Sportabout   21.87500
+6    18.1         6           Valiant   17.50000
+
+Filtered Rows (Mileage > 20):
+   Mileage Cylinders            car HP_per_Cyl
+1     21.0         6      Mazda RX4   18.33333
+2     21.0         6  Mazda RX4 Wag   18.33333
+3     22.8         4     Datsun 710   23.25000
+4     21.4         6 Hornet 4 Drive   18.33333
+5     24.4         4      Merc 240D   15.50000
+6     22.8         4       Merc 230   23.75000
+7     32.4         4       Fiat 128   16.50000
+8     30.4         4    Honda Civic   13.00000
+9     33.9         4 Toyota Corolla   16.25000
+10    21.5         4  Toyota Corona   24.25000
+11    27.3         4      Fiat X1-9   16.50000
+12    26.0         4  Porsche 914-2   22.75000
+13    30.4         4   Lotus Europa   28.25000
+14    21.4         4     Volvo 142E   27.25000
+
+Removed NA Rows:
+   Mileage Cylinders            car HP_per_Cyl
+2     21.0         6  Mazda RX4 Wag   18.33333
+3     22.8         4     Datsun 710   23.25000
+4     21.4         6 Hornet 4 Drive   18.33333
+5     24.4         4      Merc 240D   15.50000
+6     22.8         4       Merc 230   23.75000
+7     32.4         4       Fiat 128   16.50000
+8     30.4         4    Honda Civic   13.00000
+9     33.9         4 Toyota Corolla   16.25000
+10    21.5         4  Toyota Corona   24.25000
+11    27.3         4      Fiat X1-9   16.50000
+12    26.0         4  Porsche 914-2   22.75000
+13    30.4         4   Lotus Europa   28.25000
+14    21.4         4     Volvo 142E   27.25000
+21    21.0         6  Mazda RX4 Wag   18.33333
+
+Removed Duplicate Rows:
+   Mileage Cylinders            car HP_per_Cyl
+2     21.0         6  Mazda RX4 Wag   18.33333
+3     22.8         4     Datsun 710   23.25000
+4     21.4         6 Hornet 4 Drive   18.33333
+5     24.4         4      Merc 240D   15.50000
+6     22.8         4       Merc 230   23.75000
+7     32.4         4       Fiat 128   16.50000
+8     30.4         4    Honda Civic   13.00000
+9     33.9         4 Toyota Corolla   16.25000
+10    21.5         4  Toyota Corona   24.25000
+11    27.3         4      Fiat X1-9   16.50000
+12    26.0         4  Porsche 914-2   22.75000
+13    30.4         4   Lotus Europa   28.25000
+14    21.4         4     Volvo 142E   27.25000
