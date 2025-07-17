@@ -1,0 +1,80 @@
+Downloading world shapefile...
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:482: UserWarning:
+
+Glyph 127757 (\N{EARTH GLOBE EUROPE-AFRICA}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:956: UserWarning:
+
+Glyph 127757 (\N{EARTH GLOBE EUROPE-AFRICA}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:482: UserWarning:
+
+Glyph 127757 (\N{EARTH GLOBE EUROPE-AFRICA}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:482: UserWarning:
+
+Glyph 127470 (\N{REGIONAL INDICATOR SYMBOL LETTER I}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:482: UserWarning:
+
+Glyph 127475 (\N{REGIONAL INDICATOR SYMBOL LETTER N}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:956: UserWarning:
+
+Glyph 127757 (\N{EARTH GLOBE EUROPE-AFRICA}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:956: UserWarning:
+
+Glyph 127470 (\N{REGIONAL INDICATOR SYMBOL LETTER I}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:956: UserWarning:
+
+Glyph 127475 (\N{REGIONAL INDICATOR SYMBOL LETTER N}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:482: UserWarning:
+
+Glyph 127757 (\N{EARTH GLOBE EUROPE-AFRICA}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:482: UserWarning:
+
+Glyph 127470 (\N{REGIONAL INDICATOR SYMBOL LETTER I}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:482: UserWarning:
+
+Glyph 127475 (\N{REGIONAL INDICATOR SYMBOL LETTER N}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:482: UserWarning:
+
+Glyph 128506 (\N{WORLD MAP}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:956: UserWarning:
+
+Glyph 127757 (\N{EARTH GLOBE EUROPE-AFRICA}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:956: UserWarning:
+
+Glyph 127470 (\N{REGIONAL INDICATOR SYMBOL LETTER I}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:956: UserWarning:
+
+Glyph 127475 (\N{REGIONAL INDICATOR SYMBOL LETTER N}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/geopandas/plotting.py:956: UserWarning:
+
+Glyph 128506 (\N{WORLD MAP}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/IPython/core/pylabtools.py:151: UserWarning:
+
+Glyph 127757 (\N{EARTH GLOBE EUROPE-AFRICA}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/IPython/core/pylabtools.py:151: UserWarning:
+
+Glyph 127470 (\N{REGIONAL INDICATOR SYMBOL LETTER I}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/IPython/core/pylabtools.py:151: UserWarning:
+
+Glyph 127475 (\N{REGIONAL INDICATOR SYMBOL LETTER N}) missing from font(s) DejaVu Sans.
+
+/usr/local/lib/python3.11/dist-packages/IPython/core/pylabtools.py:151: UserWarning:
+
+Glyph 128506 (\N{WORLD MAP}) missing from font(s) DejaVu Sans.
