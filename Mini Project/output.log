@@ -1,0 +1,72 @@
+Requirement already satisfied: prophet in /usr/local/lib/python3.11/dist-packages (1.1.7)
+Requirement already satisfied: cmdstanpy>=1.0.4 in /usr/local/lib/python3.11/dist-packages (from prophet) (1.2.5)
+Requirement already satisfied: numpy>=1.15.4 in /usr/local/lib/python3.11/dist-packages (from prophet) (1.26.4)
+Requirement already satisfied: matplotlib>=2.0.0 in /usr/local/lib/python3.11/dist-packages (from prophet) (3.10.0)
+Requirement already satisfied: pandas>=1.0.4 in /usr/local/lib/python3.11/dist-packages (from prophet) (2.2.2)
+Requirement already satisfied: holidays<1,>=0.25 in /usr/local/lib/python3.11/dist-packages (from prophet) (0.78)
+Requirement already satisfied: tqdm>=4.36.1 in /usr/local/lib/python3.11/dist-packages (from prophet) (4.67.1)
+Requirement already satisfied: importlib_resources in /usr/local/lib/python3.11/dist-packages (from prophet) (6.5.2)
+Requirement already satisfied: stanio<2.0.0,>=0.4.0 in /usr/local/lib/python3.11/dist-packages (from cmdstanpy>=1.0.4->prophet) (0.5.1)
+Requirement already satisfied: python-dateutil in /usr/local/lib/python3.11/dist-packages (from holidays<1,>=0.25->prophet) (2.9.0.post0)
+Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.11/dist-packages (from matplotlib>=2.0.0->prophet) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.11/dist-packages (from matplotlib>=2.0.0->prophet) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.11/dist-packages (from matplotlib>=2.0.0->prophet) (4.59.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /usr/local/lib/python3.11/dist-packages (from matplotlib>=2.0.0->prophet) (1.4.9)
+Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.11/dist-packages (from matplotlib>=2.0.0->prophet) (25.0)
+Requirement already satisfied: pillow>=8 in /usr/local/lib/python3.11/dist-packages (from matplotlib>=2.0.0->prophet) (11.3.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.11/dist-packages (from matplotlib>=2.0.0->prophet) (3.2.3)
+Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.11/dist-packages (from pandas>=1.0.4->prophet) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in /usr/local/lib/python3.11/dist-packages (from pandas>=1.0.4->prophet) (2025.2)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.11/dist-packages (from python-dateutil->holidays<1,>=0.25->prophet) (1.17.0)
+
+
+Sample Sales Data:
+                                Sales
+Month	
+2018-01-01  	43654.000000
+2018-02-01	 	35935.845070
+2018-03-01		21141.690141
+2018-04-01		25812.535211
+2018-05-01		50365.380282
+
+
+Train Data Range: 2018-01-01 00:00:00 to 2022-12-01 00:00:00
+Test Data Range: 2023-01-01 00:00:00 to 2023-12-01 00:00:00
+
+INFO:prophet:Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+INFO:prophet:Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: /tmp/tmpcmpixj2z/slpno9ll.json
+DEBUG:cmdstanpy:input tempfile: /tmp/tmpcmpixj2z/yccw4yie.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['/usr/local/lib/python3.11/dist-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=37821', 'data', 'file=/tmp/tmpcmpixj2z/slpno9ll.json', 'init=/tmp/tmpcmpixj2z/yccw4yie.json', 'output', 'file=/tmp/tmpcmpixj2z/prophet_modelpc8cei74/prophet_model-20250816144002.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+14:40:02 - cmdstanpy - INFO - Chain [1] start processing
+INFO:cmdstanpy:Chain [1] start processing
+14:40:02 - cmdstanpy - INFO - Chain [1] done processing
+INFO:cmdstanpy:Chain [1] done processing
+		ds				yhat		yhat_lower		yhat_upper
+67	2023-08-01		40871.432484	30408.999051	50777.721229
+68	2023-09-01		43374.929826	33399.260295	54117.636449
+69	2023-10-01		34756.502100	24054.304851	44700.098911
+70	2023-11-01		50692.050744	40393.614285	61300.141642
+71	2023-12-01		54598.086020	44396.228784	64884.722678
+
+Mean Absolute Error (MAE): 5960.26
+Root Mean Squared Error (RMSE): 8089.70
+
+					yhat		   yhat_lower	    yhat_upper
+ds			
+2024-01-01		30640.383720	19965.954662	40480.901450
+2024-02-01		37200.673057	26902.473825	47212.294119
+2024-03-01		39651.969328	29562.884102	50799.674482
+2024-04-01		35561.906807	24940.191346	46075.734260
+2024-05-01		41808.468604	31681.374097	52347.478341
+2024-06-01		47383.830020	36455.661355	57179.661355
+2024-07-01		47723.343455	38172.408659	58004.535200
+2024-08-01		45741.632486	35926.684439	55453.769139
+2024-09-01		37930.140407	27492.835182	48441.334398
+2024-10-01		47041.687631	37108.379245	57307.658737
+2024-11-01		47134.562396	37401.044877	58187.380952
+2024-12-01		29627.967553	19864.865522	39897.531843
+
+
